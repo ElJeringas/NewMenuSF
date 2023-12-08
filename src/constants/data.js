@@ -33,7 +33,7 @@ const cocktails = [
   {
     title: 'Vino Blanco',
     price: '$18',
-    tags: 'Rum | Citrus juice | Sugar',
+    tags: 'Botella',
   },
   {
     title: 'Vino Hervido',
@@ -49,22 +49,22 @@ const cocktails = [
 
 const awards = [
   {
-    imgUrl: images.award02,
+    imgUrl: images.award01,
     title: 'Calidad de Servicio',
     subtitle: 'Servicio y personal de alta calidad.',
   },
   {
     imgUrl: images.award01,
     title: 'Comfort',
-    subtitle: 'ERspacio amplio, Ambiente calido.',
+    subtitle: 'Espacio amplio, Ambiente calido.',
   },
   {
-    imgUrl: images.award05,
+    imgUrl: images.award01,
     title: 'AAA Hospitalidad',
     subtitle: 'Habitaciones y comedores de lujo.',
   },
   {
-    imgUrl: images.award03,
+    imgUrl: images.award01,
     title: 'Chef',
     subtitle: 'Platos exclusivos, ingredientes siempre frescos.',
   },

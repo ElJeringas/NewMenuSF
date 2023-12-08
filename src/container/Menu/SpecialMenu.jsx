@@ -6,7 +6,16 @@ import MenuItem from '../../components/MenuItem/MenuItem';
 import './Menu.css';
 
 const SpecialMenu = () => {
-  const {t} = useTranslation('global')
+  const {t} = useTranslation('global');
+  const downloadMenu = () => {
+    const cvUrl = '/MenuNavidad.pdf';
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.download = 'MenuNavidad.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
   return (
     <div className='app__specialMenu flex__center section__padding' id='menu'>
       <div className='app__specialMenu-title'>
@@ -16,7 +25,7 @@ const SpecialMenu = () => {
 
       <div className='app__specialMenu-menu'>
         <div className='app__specialMenu-menu_wine flex__center'>
-          <p className='app__specialMenu-menu_heading'>Wine & Beer</p>
+          <p className='app__specialMenu-menu_heading'>Menú Navideño</p>
           <div className='app__specialMenu_menu_items'>
             {data.wines.map((wine,index) => (
               <MenuItem key={wine.title + index} title={wine.title} price={wine.price}tags={wine.tags}/>
@@ -25,7 +34,7 @@ const SpecialMenu = () => {
         </div>
 
         <div className='app__specialMenu-menu_img'>
-          <img src={images.menu} alt='menu image'/>
+          <img src={images.navPrev} alt='menu image'/>
         </div>
 
         <div className='app__specialMenu-menu_cocktails flex__center'>
@@ -38,7 +47,7 @@ const SpecialMenu = () => {
         </div>
       </div>
       <div style={{marginTop:'15px'}}>
-        <button type='button' className='custom__button'>{t(`menu.button`)}</button>
+        <button type='button' onClick={downloadMenu} className='custom__button'>{t(`menu.button`)}</button>
       </div>
     </div>
   )

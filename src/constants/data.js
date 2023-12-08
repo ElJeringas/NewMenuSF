@@ -2,30 +2,21 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Opción Regular',
+    price: '$18',
+    tags: 'Pavo con albahaca,Quenelle de papa, Ensalada, Arroz Navideño , Budin de pan con Praliné de nuez, Copa de agua, Copa de Vino.',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Opción San Francisco',
+    price: '$24,95',
+    tags: 'Pollo en salsa de albaricoque, Lomo de cerdo al romero, sufle de yuca, Verduras Thai, Arroz Navideño, Torta de Nuez y helado de vainilla, Copa de Agua, Copa de Vino tinto, Copa de Vino Blanco.',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Opción Premium',
+    price: '$29,60',
+    tags: 'Quiche de Cangrejo, Lomo de res en salsa de hinojo, Pavo con nueces y ciruelos, Croquetas de papa, Ensalada verde, Pastel de peras caramelizadas y requeson, Copa de agua, Copa de vino, Copa de champagne.',
   },
-  {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
-  },
-  {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
-  },
+
 ];
 
 const cocktails = [

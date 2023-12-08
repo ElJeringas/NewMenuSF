@@ -25,7 +25,7 @@ const Chef = () => {
           <p className='p__opensans'>{t(`chef.description_2`)}</p>
          </div>
          <div className='app__chef-sign'>
-            <p>Juan Ortega</p>
+            <p>Marco Espinoza.</p>
             <p className='p__opensans'>Chef</p>
             <img src={images.sign} alt='sign'/>
          </div>

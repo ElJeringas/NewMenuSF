@@ -16,7 +16,7 @@ const Header = () => {
         <a type='button' href='#menu' className='custom__button'>{t(`header.button`)}</a>
       </div>
       <div className='app__wrapper_img'>
-        <img src={newimg} alt='header'/>
+        <img src={images.HomeSF} alt='header'/>
       </div>
     </div>
   )

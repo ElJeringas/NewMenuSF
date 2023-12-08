@@ -26,6 +26,7 @@ import sign from '../assets/signature.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.jpg';
 import navPrev from '../assets/navPrev.png';
+import HomeSF from '../assets/SF_Home.png';
 export default {
   bg,
   chef,
@@ -54,4 +55,5 @@ export default {
   quote,
   gericht,
   navPrev,
+  HomeSF,
 };

@@ -21,29 +21,29 @@ const wines = [
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
+    title: 'Vino Tinto',
     price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    tags: 'Botella',
   },
   {
-    title: "Dark 'N' Stormy",
+    title: "Champagne",
     price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    tags: 'Botella',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
+    title: 'Vino Blanco',
+    price: '$18',
     tags: 'Rum | Citrus juice | Sugar',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Vino Hervido',
+    price: '$11',
+    tags: 'Vino | Frutos rojos | Especias',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Mineral',
+    price: '$2',
+    tags: 'Gin | Con Gas | Sin Gas ',
   },
 ];
 
@@ -51,22 +51,22 @@ const awards = [
   {
     imgUrl: images.award02,
     title: 'Calidad de Servicio',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Servicio y personal de alta calidad.',
   },
   {
     imgUrl: images.award01,
     title: 'Comfort',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'ERspacio amplio, Ambiente calido.',
   },
   {
     imgUrl: images.award05,
     title: 'AAA Hospitalidad',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Habitaciones y comedores de lujo.',
   },
   {
     imgUrl: images.award03,
     title: 'Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Platos exclusivos, ingredientes siempre frescos.',
   },
 ];
 
